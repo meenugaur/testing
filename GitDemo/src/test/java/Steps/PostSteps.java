@@ -13,7 +13,7 @@ public class PostSteps {
 
     @When("^I type the massage in the text box$")
     public void i_type_the_massage_in_the_text_box() throws Throwable {
-        System.out.println("hello we are ok");
+        System.out.println("hello we are ok. Hopefully everything will work");
     }
 
     @Then("^the massage should get posted$")
